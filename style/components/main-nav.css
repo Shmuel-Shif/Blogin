@@ -1,0 +1,25 @@
+.main-nav a {
+    color: inherit;
+    text-decoration: none;
+    margin-left: 20px;
+    text-align: center;
+    filter: drop-shadow(-1px 0 0px #1d1d1d);
+    
+}
+.main-nav>ul>li {
+    border-inline-end: 1px solid var(--clr-primary-1);
+}
+
+.main-nav>ul>li:first-child {
+    border-inline-start: 1px solid var(--clr-primary-1);
+}
+
+.main-nav a{
+    transition: box-shadow .4s;
+}
+
+.main-nav a:hover{
+    color: var(--clr-primary2);
+    border-color: var(--clr-primary2);
+    box-shadow:inset 0px -6px 0 var(--clr-primary2);
+}

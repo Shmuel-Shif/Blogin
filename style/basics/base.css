@@ -1,0 +1,53 @@
+*{
+    box-sizing: border-box;
+}
+html{
+    font-family: lato,serif;
+    color: var(--clr-primaryBase);
+}
+body{
+    margin: 0;
+}
+img {
+    width: 100%;
+}
+
+.btn {
+    cursor: pointer;
+    color: var(--clr-primary3);
+    border: 2px solid var(--clr-primary3);
+    background-color: var(--clr-head);
+    font-family: inherit;
+    font-size: 1em;
+    padding: 0.5em 1.25em;
+}
+
+.btn:hover {
+    color: var(--clr-primary2);
+    border-color: var(--clr-primary2);
+}
+
+.btn.rounded {
+    border-radius: 2em;
+}
+
+.btn.arrow {
+    transition: padding .4s;
+}
+
+.btn.arrow:hover {
+    padding-inline-end: 2.375em;
+}
+
+.btn.arrow::after {
+    content: '→';
+    opacity: 0;
+    position: absolute;
+    right: 0.75em;
+    transition: opacity .4s;
+}
+
+.btn.arrow:hover::after {
+    transition: opacity .4s .4s;
+    opacity: 1;
+}

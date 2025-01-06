@@ -1,0 +1,18 @@
+.main-layout {
+    display: grid;
+    grid-template-columns:
+        var(--layoutpadding) 1fr var(--layoutpadding);
+}
+
+.main-layout > .main-header{
+    grid-column: 1/-1;
+}
+
+.main-layout > *:not(.main-header){
+    grid-column: 2;
+}
+
+.main-layout>.main-content {
+    padding-top: 80px;
+    border-inline: 1px solid var(--clr-primary4)
+}

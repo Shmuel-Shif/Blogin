@@ -1,0 +1,22 @@
+.card {
+    margin-bottom: 40px;
+}
+
+.card .card-image {
+    object-fit: cover;
+}
+
+.card .card-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.card .card-header {
+    text-transform: uppercase;
+    font-size: 1.75rem;
+}
+
+.card .card-button {
+    margin-top: auto;
+}

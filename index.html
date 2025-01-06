@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blogin.</title>
+    <script src="https://kit.fontawesome.com/64336c7dd3.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body class="main-layout">
+    <header class="main-header main-layout  ">    
+        <div class="header-content flex align-center space-between">
+            <div class="logo">Blogin</div>
+            <nav class="main-nav   ">
+                <ul class="nav-list flex clean-list">
+                    <li><a href="#">Journal</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Work</a></li>
+                    <li><a href="#">Contace</a></li>
+                </ul>
+            </nav>
+        
+            <button class="btn-toggle-menu" onclick="toggleMenu()">&#9776;</button>
+
+    </header>
+    <main class="main-content  ">
+        <div class="card ">
+            <img class="card-image" src="img/001.png">
+            <div class="card-content">
+                <h2 class="card-header">this is the card header</h2>
+                <p class="card-text">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                    aliquip
+                    ex ea commo doconsequat, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                </p>
+                <p class="card-text">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore
+                    eu fugiat nulla
+                    pariatur...
+                </p>
+                <button class="btn rounded arrow card-button">Countine Reading</button>
+            </div>
+        </div>
+        <div class="card">
+            <img class="card-image" src="img/002.png">
+            <div class="card-content">
+                <h2 class="card-header">this is the card header</h2>
+                <p class="card-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore enim labore soluta voluptatem ullam
+                    eaque. Dicta sed laborum fugiat repellendus ipsam tempora. Minima enim, rerum quia consectetur
+                    aliquid voluptates porro?
+                </p>
+                <p class="card-text">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore
+                    eu fugiat nulla
+                    pariatur...
+                </p>
+                <button class="btn rounded arrow card-button">Countine Reading</button>
+            </div>
+        </div>
+        <div class="card">
+            <img class="card-image" src="img/003.png">
+            <div class="card-content">
+                <h2 class="card-header">this is the card header</h2>
+                <p class="card-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore enim labore soluta voluptatem ullam
+                    eaque. Dicta sed laborum fugiat repellendus ipsam tempora. Minima enim, rerum quia consectetur
+                    aliquid voluptates porro?
+                </p>
+                <p class="card-text">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore
+                    eu fugiat nulla
+                    pariatur...
+                </p>
+                <button class="btn rounded arrow card-button">Countine Reading</button>
+            </div>
+        </div>
+    </main>
+    <section class="pages">
+        <ul class="nav-pages clean-list flex space-between">
+            <li><a href="#">&#x2190 PREVIOUS</a></li>
+            <li><a href="#">NEXT  &#8594</a></li>
+        </ul>
+    </section>
+    <footer class="footer">
+        <div class="logo flex align-center justify-center">Blogin</div>
+        <ul class="footer-social clean-list flex align-center justify-center">
+            <a href="#"><img src="img/facebook-social-media-svgrepo-com.svg" alt="" srcset=""></a>
+            <a href="#"><img src="img/instagram-2-1-logo-svgrepo-com.svg" alt="" srcset=""></a>
+            <a href="#"><img src="img/twitter-svgrepo-com.svg" alt="" srcset=""></a>
+        </ul>
+        <small class="rights flex align-center justify-center">Shmuel Shif 2025 &#169;</small>
+    </footer>
+    
+    <script>
+        function toggleMenu() {
+            document.body.classList.toggle('menu-open')
+        }
+    </script>
+
+</body>
+</html>
